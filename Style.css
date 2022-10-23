@@ -1,0 +1,363 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.clear{
+    clear: both;
+}
+a{
+    text-decoration: none;
+}
+/* first three div */
+.DHeader
+{
+    background-color: rgb(26, 26, 48);
+    width: 100%;
+    height: 700px;
+}
+.DUserName{
+    background-color: rgb(23, 23, 95);
+    width: 100%;
+    height: 55px;
+}
+.DContact{
+    float: left;
+}
+.pContact{
+    margin:20px 0px 0px 100px;
+    font-size: 14px;
+}
+.UserName{
+    float:right;
+    margin:20px 100px 0px 0px; ;
+}
+.User{
+    font-size: 12px;
+}
+.icon{
+    color:goldenrod;
+    margin-right: 5px;
+}
+.navebare{
+    background-color: rgb(26, 26, 48);
+    width: 100%;
+    height: 100px;
+}
+.Logo{
+    float: left;
+    width:30%;
+    height: 70px;
+    margin:0px 90px 0px 100px; 
+}
+.imgLogo{
+    width: 150px;
+    height: 90px;
+}
+.NaveList{
+    float: right;
+    margin:35px 90px 0px 0px; 
+    width: 45%;
+    font-size: 14px;
+    font-weight: bolder;
+}
+.LinkLists li{
+    float: left;
+    list-style-type: none;
+    margin-left: 45px;
+}
+.links{
+    text-decoration: none;
+}
+.DropDown{
+    float: right;
+    margin-left: 6px;
+}
+.DPicture{
+    margin-left:200px;
+    width: 1000px;
+    height:545px ;
+    background-image:url(https://pfl-production-uploads.s3.eu-west-1.amazonaws.com/uploads/images/16487354969683.webp);
+    background-size: contain;
+    position: relative;
+}
+button{
+    cursor: pointer;
+}
+.BChangRight,.BChangLeft{
+    position: absolute;
+    top: 50%;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(39, 167, 206);
+    border: none;
+    border-radius: 100px;
+}
+.BChangLeft{
+left:110px;
+}
+.BChangRight{
+right:110px;
+}
+/* end the first three div */
+/* logo and content */
+.DFantasy{
+    width: 100%;
+    height:500px ;
+    background-color: white;
+    
+}
+.DImgLogo{
+    position: relative;
+    width: 780px;
+    height: 379px;
+    background-image: url(https://ell3b.com/assets/img/index.png);
+    background-size: contain;
+    opacity: 0.9;
+    margin-top: 120px;
+    margin-left: 100px;
+}
+.DContent{
+    width: 450px;
+    height: 240px;
+    position: absolute;
+    background-color: rgb(23, 23, 95);
+    top: 19px;
+    left: 75%;
+    padding:50px;
+}
+.Hfantasy{
+    margin-bottom: 25px;
+}
+.PContent{
+    line-height: 25px;
+}
+/* end logo and content */
+/* prizes */
+.Prizes{
+    width: 100%;
+    height: 200px;
+    background-image: url(photos/p5.jpg);
+    background-size:cover;
+    position: relative;
+}
+.weeklyPrize{
+    position: absolute;
+    float: left;
+    left: 25%;
+    top: 30%;
+}
+.annuallyPrize{
+    position: absolute;
+    float: right;
+    right: 25%;
+    top: 30%;
+}
+.DNUM{
+    font-size: 60px;
+    margin-bottom: 15px;
+    color:  yellow;
+}
+.P_prize{
+    color: rgb(115, 121, 128);
+    font-weight:800;
+    margin-left: 15px;
+}
+/* end prizes */
+/* fantacy standing  & prediction standing*/
+.FantcyStanding{
+    position: relative;
+    width:100%;
+    height: 1000px;
+    padding: 140px 0px;
+}
+.fantacy_contant,.prediction_contant{
+    text-align: center;
+    margin-bottom: 25px;
+}
+.Dashed{
+    background: #333483;
+    height: 2px;
+    margin: 0 auto;
+    width: 50px;
+    margin-bottom: 100px;
+}
+.standingContainer{
+    width: 100%;
+    position: relative;
+}
+.divStanding{
+    width: 30%;
+    height: 800px;
+    background-color: black;
+    border-radius:20px;
+    margin-left:30px;
+    float: left;
+}
+.StandingImg{
+    width: 100%;
+    height: 150px;
+    background-image: url(https://ell3b.com/assets/img/coaches/c1.webp);
+    background-size: cover;
+}
+.ContentBody{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(69, 168, 235);
+}
+ .address{
+    padding:15px 10px 0px 20px;
+
+}
+.Contentfooter{
+    width: 100%;
+    background-color: rgb(203, 250, 244);
+}
+table{
+    width: 100%;
+}
+table ,th, td{
+    border: 0px;
+    border-collapse: collapse;
+}
+.RowData:hover{
+    background-color: white;
+    border: 1px solid gainsboro;
+}
+.BSeeMore{
+    border: none;
+    background-color: black;
+    width: 130px;
+    height: 50px;
+    font-weight: 900;
+    border-radius: 5px;
+    margin: 40px 0px 0px 100px;
+}
+.Irotat{
+    margin-right: 10px;
+}
+/* end of fantacy standing */
+.predictionStanding{
+    position: relative;
+    width:100%;
+    height: 1000px;
+    padding: 50px 0px;
+    background-color: white;
+}
+.divStanding_prediction{
+    width: 40%;
+    height: 700px;
+    background-color: white;
+    border-radius:30px;
+    margin-left:80px;
+    float: left;
+}
+.imgPredction{
+    height: 100px;
+    border-top-left-radius:20px;
+    border-top-right-radius:20px;
+}
+.imgInfo{
+    padding:40px 0px 0px 170px;
+    font-weight: 800;
+}
+/* end prediction standing */
+/* the footer */
+.Dfootered{
+    width: 100%;
+    height: 600px;
+   background-image:url(https://ell3b.com/_nuxt/img/user-panel-header-bg.8b25b17.jpg);
+   position: relative;
+}
+.footerContent{
+          float: left;
+          width: 45%;
+          height: 300px;
+          margin:100px 0px 0px 100px;
+}
+.FLinks{
+    padding-top: 15px;
+}
+.ULinks{
+    list-style: none;
+}
+.ULinks li::before{
+   content: "\2022";
+   color: rgb(251, 255, 0);
+   font-weight: 300;
+   margin-right:10px;
+   font-size: 22px;
+
+}
+.usefulLinks,.ConactWithUS{
+    float: left;
+    margin:100px 0px 0px 30px;
+}
+.finalLinks:hover{
+    text-decoration:underline;
+}
+.SocialLink{
+    width: 25px;
+    height: 25px;
+    background-color:  rgb(251, 255, 0) ;
+    padding:13px 0px 0px 13px;
+    border-radius: 3px;
+    margin-top: 30px;
+    float:left;
+    margin-right: 20px;
+}
+.Youtube{
+    padding:10px 0px 0px 10px;
+    width: 28px;
+    height: 28px;
+}
+.mail{
+    height: 80px;
+    width: 150px;
+    position: absolute;
+    right: 230px;
+    top: 300px;
+}
+.Line{
+    width:950px;
+    margin-left: 200px;
+    height: 0.5px;
+    background-color: rgba(214, 207, 197,0.5);
+}
+.GETourApp{
+    text-align: center;
+    font-size:28px;
+    margin-top: 30px;
+    font-weight: 800;
+}
+.Apps{
+    margin-top:30px;
+    text-align: center;
+}
+.SApp{
+    margin-left:15px; 
+}
+.thelastDiv{
+    margin-top: 20px;
+    text-align: center;
+    padding-top:20px;
+    font-size: 13px;
+    font-weight: 900;
+    height: 30px;
+}
+.Bfixed{
+    position: fixed;
+    right: 10px;
+    bottom: 0px;
+    background-color: rgb(251, 255, 0) ;
+    width: 300px;
+    height: 40px;
+    border: none;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    text-align: left;
+    padding-left: 20px;
+    font-size: 17px;
+    color: black;
+}
